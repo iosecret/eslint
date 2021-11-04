@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./rules/iosecret.js', './rules/ts.js'].map(require.resolve),
+  extends: ['./rules/ts.js', './rules/iosecret.js'].map(require.resolve),
 
   rules: {},
 };
